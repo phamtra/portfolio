@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Playball&display=swap');
+.logo{
+    font-family: 'Lobster Two', cursive;
+    cursor: pointer;
+    color: rgb(66, 66, 66);
+    font-size: xx-large;
+}
+.nav{
+    background-color: #3dd8c3;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: -80px;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(44, 40, 40);
+    font-weight: 300;
+    cursor: pointer;  
+}
+.link:hover{
+    font-weight: 800;
+    background-color: #9ffad7;
+    border-radius: 10px;
+}
+.btn-dark{
+    background-color: white;
+    color: rgb(44, 40, 40);
+    font-weight: 300; 
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-dark:hover{
+    font-weight: 800;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    min-height: 525px;
+    background-color: #3dd8c3;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 25%;
+    margin-top: -22px;
+}
+.intro{
+    margin-right: 50px;
+    margin-top: 100px; 
+}
+.image{
+    margin-top: 100px; 
+}
+.intro-text{
+    font-size: 60px;
+    font-family: 'Allison', cursive;
+}
+.image > img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 20px black;
+}
+.intro-text-content{
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
